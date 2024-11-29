@@ -45,14 +45,16 @@ pre code{
 }
 
 hr {
-    background-color: #f8cfae !important;
+    /*background-color: #f8cfae !important;*/
+    background-color: #c6c6c6 !important;
     height:5px;
-    margin:3em;
+    margin:4em;
     border:none;
 }
 
 mark {
-    background-color: #f8cfae !important;
+    /*background-color: #f8cfae !important;*/
+    background-color: #c6c6c6 !important;
     border-radius:5px;
     color:#000;
     padding:1px 4px 1px 4px;
@@ -74,7 +76,7 @@ table {
   border-spacing: 0;
   margin: 1em 0;
   background-color: transparent; /* Transparent background */
-  border: 2px solid #2e2032; /* Thin border */
+  border: 2px solid #939196; /* Thin border */
   overflow: hidden; /* Keeps rows inside the rounded corners */
   cursor:pointer;
 }
@@ -82,13 +84,13 @@ table {
 /* Table cells */
 th, td {
   padding: 8px 12px; /* Padding for cells */
-  border: 1px solid #2e2032; /* Thin cell borders */
+  border: 1px solid #939196; /* Thin cell borders */
 }
 
 /* Header row */
 th {
-  background-color: #2e2032; /* Header background */
-  color: #ffffff; /* White text for header */
+  background-color: #939196; /* Header background */
+  color: #000 ; /* White text for header */
   text-align: left; /* Align text to the left */
   font-weight: bold;
 }
