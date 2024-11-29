@@ -116,4 +116,10 @@ tr:hover {
   background-color: rgba(46, 32, 50, 0.5); /* Slightly stronger hover effect */
 }
 
+blockquote {
+    border-left: none;
+    border-top: 1px solid #939196;
+    margin: 3em 5em 3em 5em;
+    padding: 0;
+}
 
