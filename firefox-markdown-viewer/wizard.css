@@ -1,130 +1,152 @@
-/*#f8cfae <- Highlight? #eba0ac,#fab387 */
+/* Color Highlights */
+/* #f8cfae <- Highlight? #eba0ac, #fab387 */
 @import url('https://fonts.googleapis.com/css2?family=Geist&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono&display=swap');
 
+/* General Page Styling */
 #_html {
-    background-color:#000000 !important;
-    color:#c6c6c6;
-    line-height:1.5;
+    background-color: #000000 !important;
+    color: #c6c6c6;
+    line-height: 1.2;
+    letter-spacing:0.3px;
 }
+
 body {
-    background-color:#000000 !important;
-    font-family: "Geist", serif !important;
+    background-color: #000000 !important;
+    font-family: "Geist", serif;
     font-weight: 400;
 }
 
-
 p {
-    font-size:18px !important;
+    font-size: 18px !important;
 }
+
+/* Inline Code Blocks */
 code {
-    background-color: #000000 !important;
-    padding: 0.2em 0.4em !important;
-    border-radius:5px;
-    box-shadow: 0 0 5px #00ffcc; /* glow effect */
-    color:#00ffcc !important;
-    font-size:15px;
-    font-family: "Roboto Mono", serif !important;
-
+    background-color: #1e1e1e !important;
+    padding: 2px 5px !important;
+    border-radius: 5px;
+    color: #00ffcc !important;
+    font-size: 15px;
+    font-family: "Geist Mono", serif;
 }
 
+/* Preformatted Code Blocks */
 pre {
     padding: 1em;
-    border:5px solid #2E2032 !important;
-    border-radius:20px;
-    margin:1em 0 1.5em 0 !important;
-    font-family: "Roboto Mono", serif;
+    border: 5px solid #2E2032 !important;
+    border-radius: 20px;
+    margin: 1em 0 1.5em 0 !important;
+    font-family: "Geist Mono", serif !important;
+    letter-spacing:0.5px;
 }
-pre code{
+
+pre code {
     background-color: transparent !important;
-    font-weight:normal;
-    letter-spacing:0px;
-    border: none;
-    box-shadow:none;
-    font-family: "Roboto Mono", serif;
+    font-family: "Geist Mono", serif !important;
+    letter-spacing:0.5px;
 }
 
+/* Horizontal Rule */
 hr {
-    /*background-color: #f8cfae !important;*/
     background-color: #c6c6c6 !important;
-    height:5px;
-    margin:4em;
-    border:none;
+    height: 5px;
+    margin: 4em;
+    border: none;
 }
 
+/* Highlighted Text */
 mark {
-    /*background-color: #f8cfae !important;*/
     background-color: #c6c6c6 !important;
-    border-radius:5px;
-    color:#000;
-    padding:1px 4px 1px 4px;
-
-}
-h1{
-    font-size:28px !important; 
-    text-decoration:underline;
+    border-radius: 5px;
+    color: #000;
+    padding: 1px 4px;
 }
 
-/* Table container */
+/* Headings */
+h1 {
+    font-size: 28px !important;
+    text-decoration: underline;
+    margin-bottom: 1px;
+    font-weight: normal;
+    color:#fff;
+}
+
+h2 {
+    font-weight: normal; 
+}
+
+h3 {
+    font-weight: normal; 
+}
+
+h4 {
+    font-weight: bold; 
+}
+
+/* Tables */
 table {
-  width: 100%; /* Full width */
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 1em 0;
-  background-color: transparent; /* Transparent background */
-  border: 2px solid #939196; /* Thin border */
-  overflow: hidden; /* Keeps rows inside the rounded corners */
-  cursor:pointer;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1em 0;
+    background-color: transparent;
+    border: 2px solid #939196;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-/* Table cells */
 th, td {
-  padding: 8px 12px; /* Padding for cells */
-  border: 1px solid #939196; /* Thin cell borders */
+    padding: 8px 12px;
+    border: 1px solid #939196;
 }
 
-/* Header row */
 th {
-  background-color: #939196; /* Header background */
-  color: #000 ; /* White text for header */
-  text-align: left; /* Align text to the left */
-  font-weight: bold;
+    background-color: #939196;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
 }
 
-/* Table body rows */
 tr {
-  background-color: transparent; /* Default row background */
+    background-color: transparent;
 }
 
 tr:nth-child(even) {
-  background-color: rgba(46, 32, 50, 0.1); /* Slightly shaded for even rows */
+    background-color: rgba(46, 32, 50, 0.1);
 }
 
 tr:nth-child(odd) {
-  background-color: transparent; /* Odd rows fully transparent */
+    background-color: transparent;
 }
 
-/* Text color for body */
 td {
-  color: #c9d1d9; /* Subtle light text */
+    color: #c9d1d9;
 }
 
-/* Hover effect */
 tr:hover {
-  background-color: rgba(46, 32, 50, 0.5); /* Slightly stronger hover effect */
+    background-color: rgba(46, 32, 50, 0.5);
 }
 
+/* Blockquotes */
 blockquote {
     border-left: none;
-    border-top: 2px dashed #2e2032;
-    margin: 3em 5em 3em 5em;
+    margin: 3em 0;
     padding: 0;
 }
 
-li{
-    margin-bottom:1em;
+/* Lists */
+li {
+    margin-bottom: 0.5em;
 }
-img{
+
+/* Images */
+img {
     width: 50%;
+}
+
+strong{
+    font-weight:normal;
+    color:#fff;
+
 }
